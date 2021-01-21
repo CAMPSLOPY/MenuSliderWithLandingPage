@@ -10,13 +10,12 @@ toggle.addEventListener("click", () => {
 });
 
 // show Modal
-// the open var is the signUP button in the header..
+// 
 open.addEventListener("click", () => {
   modal.classList.add("show-modal");
 });
 
 // close modal
-// the close var is inside the modal element
 close.addEventListener("click", () => {
   modal.classList.remove("show-modal");
 });

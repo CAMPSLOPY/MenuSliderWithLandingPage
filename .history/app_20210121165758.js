@@ -6,7 +6,7 @@ const modal = document.getElementById("modal");
 // Event Listeners
 
 toggle.addEventListener("click", () => {
-  document.body.classList.toggle("show-nav");
+  document.body.classList.add("show-nav");
 });
 
 // show Modal

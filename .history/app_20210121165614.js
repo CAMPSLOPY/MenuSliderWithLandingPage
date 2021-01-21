@@ -16,7 +16,7 @@ open.addEventListener("click", () => {
 });
 
 // close modal
-// the close var is inside the modal element
+// the close var is inside the m
 close.addEventListener("click", () => {
   modal.classList.remove("show-modal");
 });
