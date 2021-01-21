@@ -112,8 +112,6 @@ button:focus {
   min-height: 100vh;
 }
 
-/* MODAL SECTION */
-
 .modal-container {
   background: rgba(0, 0, 0, 0.6);
   position: fixed;
@@ -175,10 +173,5 @@ button:focus {
 }
 
 @keyframes modalopen{
-from{
-    opacity: 0;
-}
-to{
-    opacity: 1;
-}
+from
 }

@@ -112,8 +112,6 @@ button:focus {
   min-height: 100vh;
 }
 
-/* MODAL SECTION */
-
 .modal-container {
   background: rgba(0, 0, 0, 0.6);
   position: fixed;
@@ -139,7 +137,7 @@ button:focus {
   max-width: 100%;
   width: 400px;
   animation-name: modalopen;
-  animation-duration: var(--modal-duration);
+  animation-duration: var(--an);
 }
 
 .modal-header {
@@ -172,13 +170,4 @@ button:focus {
   position: absolute;
   top: 0;
   right: 0;
-}
-
-@keyframes modalopen{
-from{
-    opacity: 0;
-}
-to{
-    opacity: 1;
-}
 }
