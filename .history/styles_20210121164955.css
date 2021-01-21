@@ -122,9 +122,7 @@ button:focus {
   display: none;
 }
 
-.modal-container.show-modal {
-  display: block;
-}
+.moda
 .modal {
   background-color: #fff;
   border-radius: 5px;

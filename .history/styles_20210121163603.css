@@ -13,10 +13,11 @@ body {
   margin: 0;
   transition: transform 1s ease;
 }
-body.show-nav {
-  /* this will display the nav once the toggle btn is clicked  */
-  transform: translateX(200px);
+body.show-nav{
+    /* this will display the navba */
+    transform: translateX(200px);
 }
+
 
 /* NAVBAR STYLING */
 nav {
@@ -120,10 +121,6 @@ button:focus {
   bottom: 0;
   left: 0;
   display: none;
-}
-
-.modal-container.show-modal {
-  display: block;
 }
 .modal {
   background-color: #fff;

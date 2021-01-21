@@ -24,7 +24,7 @@ nav {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0px;
   background-color: var(--primary-color);
   transform: translateX(-100%);
   border-right: 2px solid rgba(200, 200, 200, 0.1);
@@ -120,10 +120,6 @@ button:focus {
   bottom: 0;
   left: 0;
   display: none;
-}
-
-.modal-container.show-modal {
-  display: block;
 }
 .modal {
   background-color: #fff;

@@ -121,10 +121,6 @@ button:focus {
   left: 0;
   display: none;
 }
-
-.modal-container.show-modal {
-  display: block;
-}
 .modal {
   background-color: #fff;
   border-radius: 5px;
