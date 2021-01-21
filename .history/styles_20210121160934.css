@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
 
 :root {
   --modal-duration: 1s;
@@ -113,7 +113,7 @@ button:focus {
   top: 0;
   bottom: 0;
   left: 0;
-  display: none;
+  /* display: none; */
 }
 .modal {
   background-color: #fff;
@@ -128,34 +128,6 @@ button:focus {
   width: 400px;
 }
 
-.modal-header {
-  background-color: var(--primary-color);
-  padding: 15px;
-  color: #fff;
-}
-
-.modal-header h3 {
-  margin: 0;
-  border-bottom: 1px solid #333;
-}
-.modal-content {
-  padding: 20px;
-}
-.modal-form div {
-  margin: 15px 0;
-}
-.modal-form label {
-  display: block;
-  margin-bottom: 5px;
-}
-.modal-form .form-input {
-  padding: 8px;
-  width: 100%;
-}
-.close-btn {
-  background: transparent;
-  font-size: 25px;
-  position: absolute;
-  top: 0;
-  right: 0;
+.modal-header{
+    background-color: var(--primary-color);
 }
