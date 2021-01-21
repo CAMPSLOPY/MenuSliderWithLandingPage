@@ -71,10 +71,6 @@ header {
   min-height: 20vh;
   padding: 2.5rem 0.9375rem;
 }
-header p {
-  margin: 30px 0;
-}
-button,
-input[type="submit"] {
-  background-color: var(--secondary-color);
+header p{
+    margin: 30px 0;
 }
