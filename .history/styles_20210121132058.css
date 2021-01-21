@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
 
-:root {
-  --modal-duration: 1s;
-  --primary-color: ;
-  --secondary-color: ;
+:root{
+    --modal-duration: 1s
 }
