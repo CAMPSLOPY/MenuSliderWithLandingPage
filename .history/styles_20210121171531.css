@@ -30,6 +30,7 @@ nav {
   border-right: 2px solid rgba(200, 200, 200, 0.1);
   color: #fff;
   z-index: 100;
+  overflow: hidden;
 }
 
 nav .logo {

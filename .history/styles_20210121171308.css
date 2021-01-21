@@ -21,7 +21,7 @@ body.show-nav {
 /* NAVBAR STYLING */
 nav {
   width: 200px;
-  height: 100vh;
+  min-height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -109,6 +109,7 @@ button:focus {
   margin: 0 auto;
   max-width: 100%;
   width: 800px;
+  min-height: 100vh;
 }
 
 /* MODAL SECTION */
@@ -173,11 +174,11 @@ button:focus {
   right: 0;
 }
 
-@keyframes modalopen {
-  from {
+@keyframes modalopen{
+from{
     opacity: 0;
-  }
-  to {
+}
+to{
     opacity: 1;
-  }
+}
 }

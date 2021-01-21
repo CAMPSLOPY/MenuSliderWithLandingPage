@@ -25,6 +25,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  botto;
   background-color: var(--primary-color);
   transform: translateX(-100%);
   border-right: 2px solid rgba(200, 200, 200, 0.1);
@@ -173,11 +174,11 @@ button:focus {
   right: 0;
 }
 
-@keyframes modalopen {
-  from {
+@keyframes modalopen{
+from{
     opacity: 0;
-  }
-  to {
+}
+to{
     opacity: 1;
-  }
+}
 }
