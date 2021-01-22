@@ -30,4 +30,3 @@ window.addEventListener("click", (e) => {
 
 
 // adding validator to the FORM
-

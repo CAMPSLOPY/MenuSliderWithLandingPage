@@ -29,5 +29,4 @@ window.addEventListener("click", (e) => {
 });
 
 
-// adding validator to the FORM
-
+// adding the form validator to the page

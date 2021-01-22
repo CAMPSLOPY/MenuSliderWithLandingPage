@@ -21,13 +21,8 @@ close.addEventListener("click", () => {
   modal.classList.remove("show-modal");
 });
 
-// this is used to remove the modal when anywhere is clicked on the homepage...
 window.addEventListener("click", (e) => {
-  if (e.target === modal) {
-    modal.classList.remove("show-modal");
+  if (e.target == modal) {
+    console.log(e);
   }
 });
-
-
-// adding validator to the FORM
-

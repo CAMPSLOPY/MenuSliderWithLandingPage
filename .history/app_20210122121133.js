@@ -27,7 +27,3 @@ window.addEventListener("click", (e) => {
     modal.classList.remove("show-modal");
   }
 });
-
-
-// adding validator to the FORM
-
