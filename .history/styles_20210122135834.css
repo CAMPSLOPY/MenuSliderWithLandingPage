@@ -183,7 +183,7 @@ border-color: var(--error-color);
 }
 /***********************/
 
-.form-control label {
+.form label {
   display: block;
   margin-bottom: 5px;
 }

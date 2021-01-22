@@ -183,11 +183,11 @@ border-color: var(--error-color);
 }
 /***********************/
 
-.form-control label {
+.modal-form label {
   display: block;
   margin-bottom: 5px;
 }
-.form-control input {
+..form .form-input {
   padding: 8px;
   width: 100%;
 }

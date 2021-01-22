@@ -181,13 +181,13 @@ border-color: var(--success-color);
 .form-control.error input{
 border-color: var(--error-color);
 }
-/***********************/
+/**********************  */
 
-.form-control label {
+.modal-form label {
   display: block;
   margin-bottom: 5px;
 }
-.form-control input {
+.modal-form .form-input {
   padding: 8px;
   width: 100%;
 }

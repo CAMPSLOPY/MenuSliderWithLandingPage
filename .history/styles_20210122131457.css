@@ -4,8 +4,6 @@
   --modal-duration: 1s;
   --primary-color: #30336b;
   --secondary-color: #be2edd;
-  --success-color: #2ecc71;
-  --error-color: #e74c3c;
 }
 * {
   box-sizing: border-box;
@@ -160,34 +158,18 @@ button:focus {
 .form-control {
   margin: 15px 0;
   position: relative;
-  padding-bottom: 20px;
 }
 .form-control small {
   position: absolute;
   bottom: 0;
   left: 0;
   visibility: hidden;
-  color: var(--error-color);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* i have to control the functionalities with JS */
-.form-control.error small{
-  visibility: visible;
-}
-
-.form-control.success input{
-border-color: var(--success-color);
-}
-.form-control.error input{
-border-color: var(--error-color);
-}
-/***********************/
-
-.form-control label {
+.modal-form label {
   display: block;
   margin-bottom: 5px;
 }
-.form-control input {
+.modal-form .form-input {
   padding: 8px;
   width: 100%;
 }
@@ -197,6 +179,9 @@ border-color: var(--error-color);
   position: absolute;
   top: 0;
   right: 0;
+}
+
+small {
 }
 
 @keyframes modalopen {
