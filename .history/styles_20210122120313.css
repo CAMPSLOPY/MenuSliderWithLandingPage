@@ -16,7 +16,6 @@ body {
 body.show-nav {
   /* this will display the nav once the toggle btn is clicked  */
   transform: translateX(200px);
-  /* this has to be the same with the nav width*/
 }
 
 /* NAVBAR STYLING */
@@ -27,7 +26,7 @@ nav {
   top: 0;
   left: 0;
   background-color: var(--primary-color);
-  transform: translateX(-100%);
+  transform: translateX(-200%);
   border-right: 2px solid rgba(200, 200, 200, 0.1);
   color: #fff;
   z-index: 100;
