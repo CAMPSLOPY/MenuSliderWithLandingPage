@@ -3,6 +3,12 @@ const close = document.getElementById("close");
 const open = document.getElementById("open");
 const modal = document.getElementById("modal");
 
+// variables for validating the form
+const form = document.getElementById("form");
+const name = document.getElementById("name");
+const form = document.getElementById("form");
+const form = document.getElementById("form");
+const form = document.getElementById("form");
 // Event Listeners
 
 toggle.addEventListener("click", () => {
@@ -29,19 +35,3 @@ window.addEventListener("click", (e) => {
 });
 
 // adding validator to the FORM
-
-// variables for validating the form
-const form = document.getElementById("form");
-const name = document.getElementById("name");
-const email = document.getElementById("email");
-const password = document.getElementById("password");
-const password2 = document.getElementById("password2");
-
-form.addEventListener("submit", function (e) {
-  e.preventDefault();
-  checkRequired([username, email, password, password2]);
-  checkLength(username, 3, 15);
-  checkLength(password, 6, 25);
-  validateEmail(email);
-  checkPasswordMatch(password, password2);
-});
