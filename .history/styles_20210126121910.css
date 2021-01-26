@@ -174,20 +174,19 @@ button:focus {
   border-color: #777;
 }
 .form-control i {
-  visibility: hidden;
-  position: absolute;
-  top: 33px;
-  right: 10px;
-  transition: .2s ease-in;
+	visibility: hidden;
+	position: absolute;
+	top: 3px;
+	right: 10px;
 }
 .form-control.success i.fa-check-circle {
-  color: var(--success-color);
-  visibility: visible;
+	color: var(--success-color);
+	visibility: visible;
 }
 
 .form-control.error i.fa-exclamation-circle {
-  color: var(--error-color);
-  visibility: visible;
+	color: var(--error-color);
+	visibility: visible;
 }
 
 .form-control small {

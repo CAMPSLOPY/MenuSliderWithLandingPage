@@ -51,7 +51,6 @@ function showError(input, message) {
   formControl.className = "form-control error";
   // we then attach the small tag with jsDOM to the parent element
   const small = formControl.querySelector("small");
-  // then we set the innertext dynamically through js
   small.innerText = message;
 }
 // show SUCCESS

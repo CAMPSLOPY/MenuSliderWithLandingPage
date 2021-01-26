@@ -47,11 +47,9 @@ form.addEventListener("submit", (e) => {
 function showError(input, message) {
   // here we locate the parent element of the current element
   const formControl = input.parentElement;
-  // then we add a css class to the parent through JS
+  // then we add a css class 
   formControl.className = "form-control error";
-  // we then attach the small tag with jsDOM to the parent element
   const small = formControl.querySelector("small");
-  // then we set the innertext dynamically through js
   small.innerText = message;
 }
 // show SUCCESS

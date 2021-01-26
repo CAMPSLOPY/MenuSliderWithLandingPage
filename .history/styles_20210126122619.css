@@ -178,7 +178,7 @@ button:focus {
   position: absolute;
   top: 33px;
   right: 10px;
-  transition: .2s ease-in;
+  transition: 1s ease-in;
 }
 .form-control.success i.fa-check-circle {
   color: var(--success-color);
