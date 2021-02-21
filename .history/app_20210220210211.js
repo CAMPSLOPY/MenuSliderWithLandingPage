@@ -3,6 +3,7 @@ const close = document.getElementById("close");
 const open = document.getElementById("open");
 const modal = document.getElementById("modal");
 
+
 // Event Listeners
 
 toggle.addEventListener("click", () => {
@@ -27,13 +28,6 @@ window.addEventListener("click", (e) => {
     modal.classList.remove("show-modal");
   }
 });
-
-// variables for validating the form
-const form = document.getElementById("form");
-const username = document.getElementById("username");
-const email = document.getElementById("email");
-const password = document.getElementById("password");
-const password2 = document.getElementById("password2");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
